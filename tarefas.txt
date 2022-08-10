@@ -1,0 +1,5 @@
+--tarefas
+1.buscar mostrar as notas de cada pagina 
+2.Mostrar uma nota no input editar e salvar
+3.habilitar as areas para carregamento de arquivos: video, foto, pdf, desenho e mais.
+4.adicionar uma nota numa pasta pelo id

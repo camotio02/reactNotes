@@ -1,0 +1,192 @@
+@media only screen and (max-width: 756px) {
+
+    .wrapper-logoGrades {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        color: aliceblue;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .wrapper-noShow {
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 0;
+        height: 0;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .wrapper-center {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 3rem;
+        width: var(--widtgh-default);
+        height: var(--widtgh-default);
+        background-color: rgb(253, 207, 55);
+        border-bottom-left-radius: 4rem;
+        border-top-right-radius: 4rem;
+    }
+
+    .wrapper-center-lopp {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 3rem;
+        width: var(--widtgh-default);
+        height: var(--widtgh-default);
+        background-color: white;
+    }
+
+    .wrapper-h2-description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 90%;
+        height: 40%;
+        background-color: rgb(253, 207, 55);
+        border-radius: 3rem;
+    }
+
+    .wrapper-h2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: 30%;
+        font-size: 1.5rem;
+        color: rgb(195, 49, 0);
+        text-align: center;
+
+    }
+
+    .wrapper-description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        color: rgb(195, 49, 0);
+        font-size: 15px;
+    }
+
+    .wrapper-image-continuar {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        width: 90%;
+        height: auto;
+
+    }
+
+    .wrapper-image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        height: 100%;
+    }
+
+    .image {
+        width: 19rem;
+        height: 19rem;
+        margin-right: -13.7rem;
+    }
+
+    .wrapper-deseja-continuar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 70%;
+        height: 100%;
+        color: rgb(195, 49, 0);
+    }
+
+    .wrapper-indroduçao {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    .wrapper-Button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: 4rem;
+        background-color: rgb(86, 14, 14);
+        margin-bottom: 10px;
+        border-bottom-left-radius: 4rem;
+        border-top-right-radius: 4rem;
+        cursor: pointer;
+        color: rgb(253, 207, 55);
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .wrapper-Button:hover {
+        background-color: rgb(119, 119, 119);
+        color: rgb(253, 207, 55);
+    }
+
+    .loop {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: 100%;
+    }
+
+    .loop-ocultar {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        width: 0;
+        height: 0;
+        visibility: hidden;
+        opacity: 0;
+        background-color: transparent;
+    }
+
+    .load {
+        width: 40px;
+        height: 40px;
+        border: 5px solid;
+        border-radius: 50%;
+        border-top-color: transparent;
+        margin: 0 auto;
+        color: #ffb801;
+        animation: meubotão 1s linear infinite;
+    }
+
+    @keyframes meubotão {
+        to {
+            transform: rotate(360deg);
+        }
+    }
+}

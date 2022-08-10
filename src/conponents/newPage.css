@@ -1,0 +1,95 @@
+.ocultar {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+.conainer-center {
+    position: absolute;
+    background-color: rgb(243, 234, 234);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+    border-radius: 2rem;
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.icon-enter {
+    color: rgba(153, 144, 144);
+    filter: brightness(1.0);
+    font-size: 3rem !important;
+}
+.grades:hover {
+    background-color: rgb(238, 139, 0);
+    filter: opacity(0.5);
+    color: black;
+}
+.center-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+
+}
+.center-input p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    font-size: 1.5rem;
+    margin-top: -1rem;
+}
+.center-input input {
+    width: 80%;
+    height: 3rem;
+    border: 1px solid rgb(199, 198, 198);
+    outline: none;
+    font-size: 1.5rem;
+}
+.center-input input::placeholder {
+    font-size: 1.5rem;
+}
+.grades-newpage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 5rem;
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+.salvar,
+.cancelar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    font-size: 1.5rem;
+    border-top: 1px solid rgb(192, 190, 190);
+    cursor: pointer;
+}
+.cancelar {
+    color: rgb(238, 139, 0);
+    border-right: 1px solid rgb(192, 190, 190);
+}
+.cancelar:hover {
+    color: whitesmoke;
+}
+.salvar {
+    color: black;
+    filter: brightness(1);
+}

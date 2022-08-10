@@ -1,0 +1,268 @@
+:root {
+    --widtgh-default: 85%;
+    --color-default: rgba(235, 138, 12, 0.76);
+}
+.homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/photo-1601662528567-526cd06f6582.avif);
+    background-size: cover;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+@media only screen and (max-width: 756px) {
+    .homepage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        background-image: url(../assets/photo-1601662528567-526cd06f6582.avif);
+        background-size: cover;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+    .wrapper-home-page-ocultar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(0, 0, 0);
+        visibility: hidden;
+    }
+
+    .contain {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: var(--widtgh-default);
+        height: 90%;
+        padding: 15px;
+        overflow: auto;
+    }
+
+    .contain::-webkit-scrollbar {
+        position: absolute;
+        width: 3px;
+        background-color: transparent;
+    }
+
+    .contain::-webkit-scrollbar-thumb {
+        width: 1px;
+        border-radius: 2rem;
+        background-image: linear-gradient(red, yellow, green)
+    }
+
+    .grades-edit-namePackege {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 20%;
+    }
+
+    .edit-packege-div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: var(--widtgh-default);
+        height: 5%;
+        font-size: 1.5rem;
+        color: rgb(85, 82, 82);
+        padding: 15px;
+    }
+
+    .package-name-scroll {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 60%;
+        height: 100%;
+    }
+
+    .packege-p-scroll {
+        color: black;
+        font-size: 2rem;
+        margin-right: 10%;
+        visibility: visible;
+    }
+
+    .packege-p-scrolls {
+        color: black;
+        font-size: 2rem;
+        margin-right: 10%;
+        visibility: visible;
+    }
+
+    .edit-packeges {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 40%;
+        height: 100%;
+        color: rgba(235, 138, 12, 0.76);
+    }
+
+    .package-name {
+        font-size: 2.5rem;
+    }
+
+    .packeges {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        height: 80%;
+    }
+
+    .packege {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        height: 10%rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .grades-items {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        color: rgba(153, 144, 144);
+        width: 100%;
+        height: 40%;
+        font-size: 1.3rem;
+    }
+
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+    }
+
+    .grades {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 60%;
+        border: 1px solid rgb(153, 144, 144);
+        cursor: pointer;
+        padding: 5px;
+    }
+
+    .grades-names {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 50%;
+        height: 100%;
+        font-size: 1.3rem;
+        text-overflow: clip;
+    }
+
+    .grades-icon-number {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 5px;
+        width: 50%;
+        height: 100%;
+    }
+
+    .grades-number {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: var(--widtgh-default);
+        height: 100%;
+        font-size: 1.3rem;
+    }
+
+    .grades-icon {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 25%;
+        height: 100%;
+    }
+
+    .new-packege {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: var(--widtgh-default);
+        height: 10%;
+    }
+
+    .new-packege-add {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 50%;
+        height: 100%;
+        font-size: 1.7rem;
+        color: rgba(235, 138, 12, 0.76);
+        cursor: pointer;
+    }
+
+    .loop {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: 100%;
+        border-radius: 2rem;
+    }
+
+    .loop-ocultar {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        width: 0;
+        height: 0;
+        visibility: hidden;
+        opacity: 0;
+        background-color: transparent;
+    }
+
+    .load {
+        width: 40px;
+        height: 40px;
+        border: 5px solid;
+        border-radius: 50%;
+        border-top-color: transparent;
+        margin: 0 auto;
+        color: #ffb801;
+        animation: meubotão 1s linear infinite;
+    }
+
+    @keyframes meubotão {
+        to {
+            transform: rotate(360deg);
+        }
+    }
+}

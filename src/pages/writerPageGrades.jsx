@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import './writerPageGrades.css'
-import DeleteI from "../assets/png-clipart-button-delete-key-icon-warning-icons-text-sign.png"
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import PersonAddIcon from '@mui/icons-material/PersonAdd';
 import IosShareIcon from '@mui/icons-material/IosShare';
@@ -22,7 +21,7 @@ export const WriterPageGrades = () => {
         title: ''
     })
     const handleBack = () => {
-        navigate('/note/:id')
+        navigate('/folder/:id')
     }
     const [isActive, setActive] = useState(false);
     const toggleClass = () => {

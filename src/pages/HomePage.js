@@ -45,6 +45,7 @@ export const HomeScreen = () => {
     fetchData();
   }, []);
   const [isActive, setActive] = useState(false);
+  const [scrollRoll, setScrollRoll] = useState(false)
   const toggleClass = () => {
     var home = window.document.querySelector("div.homepage");
     setNotas({
@@ -55,10 +56,11 @@ export const HomeScreen = () => {
   };
   const HandleScroll = (e) => {
     const height = e.target.scrollTop;
-
     if (height > 100) {
-      setScroll(true);
+      setScrollRoll(true)
       return;
+    } else {
+      setScrollRoll(false)
     }
     setScroll(false);
   };
@@ -68,7 +70,7 @@ export const HomeScreen = () => {
       <div className={isActive ? "wrapper-home-page-ocultar" : "homepage"}>
         <div className="edit-packege-div">
           <div className="package-name-scroll">
-            <p className="packege-p-scroll"></p>
+            <p className={scrollRoll ? "packege-p-scroll" : "packege-p-scrolls"}>Pastas</p>
           </div>
           <div className="edit-packeges">Editar</div>
         </div>
